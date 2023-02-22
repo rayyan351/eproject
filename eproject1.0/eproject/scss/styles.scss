@@ -1,0 +1,770 @@
+// Import all of Bootstrap's CSS
+@import "~bootstrap/scss/bootstrap";
+
+@media (max-width: 991.98px) {
+    .offcanvas-collapse {
+      position: fixed;
+      top: 56px; /* Height of navbar */
+      bottom: 0;
+      left: 100%;
+      width: 100%;
+      padding-right: 0.5rem;
+      padding-left: 1rem;
+      overflow-y: auto;
+      visibility: hidden;
+      background-color: #343a40;
+      transition: transform .3s ease-in-out, visibility .3s ease-in-out;
+    }
+    .offcanvas-collapse.open {
+      visibility: visible;
+      transform: translateX(-100%);
+    }
+  }
+
+
+ .special-treatment{
+  width:100px ;
+ }
+
+.main-bar-font-color{
+  color:#23408e;
+  font-weight:500 ;
+  font-size:16.5px ;
+}
+
+.main-bar-font-color:hover{
+  color:#ab0433 ;
+  font-size:17px ;
+  font-weight:600 ;
+}
+
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+  .b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
+
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+
+  .custom-column{
+    columns:2 ;
+  }
+
+hr{
+  margin:3px ;
+}
+
+.custom-font{
+  font-size:13px ;
+}
+
+.nav-link{
+  margin-left:35px ;
+}
+
+.bottom-bor{
+  border-bottom:2px solid rgb(217, 213, 213) ;
+}
+
+.grad-color{
+  background-color:#ececec ;
+}
+
+.grad-color2{
+  background-color:white ;
+} 
+
+
+/* header */
+
+.header-a-color{
+  color:white ;
+}
+
+
+/* css for card container */
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+
+
+.card1{
+ 
+  padding-left:20px;
+  padding-right:20px ;
+  padding-top:10px ;
+  padding-bottom:10px ;
+  background-color: #3152ae;
+  box-shadow:-1px 6px 14px -3px rgb(67 58 58 / 75%); 
+  border:none ;
+
+
+}
+
+.card2{
+  
+  padding-left:20px;
+  padding-right:20px ;
+  padding-top:10px ;
+  padding-bottom:10px ;
+  background-color: #3152ae;
+  box-shadow:-1px 6px 14px -3px rgb(67 58 58 / 75%); 
+  border:none ;
+
+
+}
+
+
+.main-logo{
+  height:100px ;
+  width:260px ;
+}
+
+
+
+.body2{
+  height:170px ;
+}
+
+
+.card3{
+
+  padding-left:20px;
+  padding-right:20px ;
+  padding-top:10px ;
+  padding-bottom:10px ;
+  background-color: #3152ae;
+  box-shadow:-1px 6px 14px -3px rgb(67 58 58 / 75%); 
+  border:none ;
+
+
+}
+
+
+#cards-select{
+  width:220px ;
+  padding-left:5px ;
+  padding-bottom:2px ;
+  border:none ;
+  background-color: #3152ae;
+  color:white ;
+  border-bottom:1px solid white ;
+}
+
+
+.card-labels{
+  color:white ;
+  font-size:18px; 
+}
+
+#req-no{
+  padding-left:5px ;
+  padding-bottom:2px ;
+  width:220px ;
+  border:none ;
+  background-color: #3152ae;
+  color:white ;
+  border-bottom:2px solid white ;
+  }
+
+
+
+  /* css for contact us  */
+
+
+     
+  .card-custom{
+    margin-top:50px ;
+    box-shadow:-1px 6px 14px -3px rgb(67 58 58 / 75%); 
+    border-bottom:2px solid #3152ae ;
+    margin-right:20px ;
+  }
+  
+  .card-custom2{
+    margin-top:20px ;
+    box-shadow:-1px 6px 14px -3px rgb(67 58 58 / 75%); 
+    border-bottom:2px solid #3152ae ;
+    margin-right:20px ;
+  }
+
+ .contact-us-form{
+  margin-top:50px ;
+ }
+ 
+.form-select{
+  width:206.8px ;
+  padding:6px 12px ;
+  margin-left:9px ;
+}
+
+
+.control2{
+  margin-top:40px ;
+}
+
+.select2{
+margin-top:56px 
+
+}
+
+.subject-options{
+  font-size:15px ;
+}
+
+.input-group{
+  margin-top:60px ;
+}
+
+.d-md-flex{
+margin-top:40px ;
+}
+
+.btn{
+  padding:7px ;
+}
+
+.btn-secondary{
+  margin-left:10px ;
+  width:110px ;
+
+}
+
+.contact-us-reset-btn{
+  text-decoration:none ;
+  color:white ;
+}
+
+/* css for login form */
+
+
+.miracle{
+  width:500px ;
+  height:400px ;
+}
+
+.miracle2{
+ 
+  display:flex ;
+  justify-content:center ;
+  box-shadow:-1px 6px 14px -3px rgb(67 58 58 / 75%); 
+
+}
+
+.custom-bg-color{
+  width:600px ;
+  margin-top:50px ;
+ 
+}
+
+.forgot-pass{
+  margin-right:63px ;
+  text-decoration:none ;
+  color:black ;
+  cursor:pointer ;
+}
+
+.create-account{
+  text-decoration:none ;
+  cursor:pointer ;
+  color:black ;
+
+}
+
+.click-here{
+  text-decoration:none ;
+  cursor:pointer ;
+  color: #3152ae;
+  font-weight:600 ;
+}
+
+.login-button{
+  padding-left:40px ;
+  padding-right:40px ;
+  
+}
+
+.login-anchor{
+  color:white ;
+  text-decoration:none ;
+  font-weight:600 ;
+}
+
+.login-anchor:hover{
+  color:white ;
+}
+
+/* css for signup form */
+
+.register-text{
+  margin-top:50px ;
+}
+
+.signup-contact {
+  width:234px ;
+}
+
+.miracle-signup{
+  width:500px ;
+  height:450px ;
+}
+
+.sign-inbutton{
+  margin-right:410px ;
+  width:100px ;
+}
+
+.custom-colm1{
+width:300px ;
+}
+
+.backto-login{
+  font-size:14px;
+  text-decoration:none ; 
+  cursor:pointer ;
+  color:black ;
+}
+
+.backto-login:hover{
+  color:black ;
+}
+
+
+
+.clickhere2{
+  color:#3152ae ;
+  font-weight:600 ;
+}
+
+.signup-button{
+  text-decoration:none ;
+  color:white ;
+  font-weight:600 ;
+  font-size:15px ;
+}
+
+.signup-button:hover{
+  color:white ;
+  
+}
+
+/* departments css */
+
+.dep-img{
+  width:300px ;
+  height:200px ;
+}
+
+.dep-main-div{
+  margin-left:160px ;
+}
+
+.dep-card{
+  height:40px ;
+  padding-top:5px ;
+  animation:card, 1s ,ease-in-out ;
+}
+
+
+
+/* accidents & emergency */
+
+
+
+.accident-img{
+  margin-top: 40px;
+}
+
+.amergency-color{
+  color: #23408e;
+  font-family: 'Open Sans',sans-serif ;
+font-weight: 700;
+}
+
+.acci-text-align{
+text-align: left;
+
+}
+.caption-size{
+  font-size: 12px;
+}
+
+.caption-headings{
+font-size: 16px;
+}
+
+/* nephrology */
+
+.scroll-margin{
+  margin-top: 50px;
+}
+
+.scroller-list-alignment{
+  text-align: left;
+}
+
+.footer-ul{
+  list-style:none ;
+  text-align:left ;
+  color:white ;
+}
+
+.col-2{
+  width:280px ;
+}
+
+
+.footer-color {
+  background-color:#25272e ;
+  border-radius:0 ;
+}
+
+.main-card-footer {
+border:none ;
+background-color:#25272e ;
+}
+
+.text-font-footercard{
+  font-size:14px ;
+  text-align:left ;
+  color:white ;
+  margin-left:5px ;
+}
+
+.footer-card{
+  padding:10px ;
+}
+
+.footer-rdmore-button{
+  border-radius:0px ;
+  padding-top:5px ;
+  padding-bottom:5px ;
+  padding-left:10px ;
+  padding-right:10px ;
+  font-size:13px ;
+  margin-right:167px ;
+
+
+}
+
+
+.footer-attributes{
+  color:white ;
+  text-decoration:none ;
+  cursor:pointer ;
+
+}
+
+.footer-attributes:hover{
+  color:white ;
+  font-weight:600 ;
+  font-size:16.4px ;
+}
+
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+background-color:#25272e ;
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius:200px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  width:50px ;
+  height:50px ;
+
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+.social-links{
+  margin-left:20px ;
+}
+
+.follow-us{
+  color:white ;
+}
+
+.size-footer-icon{
+  font-size:20px ;
+}
+
+.small-line{
+  width:60px ;
+  height:3px ;
+  background-color:red ;
+  display:inline-block ;
+}
+
+.quick-link-headings{
+  margin-bottom:0px ;
+}
+
+/* nephrology */
+
+.footer-color2{
+  background-color: #25272e;
+}
+
+
+  .home-first-card{
+    width:350px ;
+  }
+
+  /* success stories */
+
+  .main-home-card-display{
+    justify-content:center ;
+    
+  }
+
+  .home-second-card{
+    width:350px ;
+  } 
+
+  .patient-succes-stories-heading {
+    border:none ;
+  }
+
+  .suc-sto-rm-bor{
+    border:none ;
+  }
+
+  .stories-div-colu{
+    display:flex ;
+    justify-content:center ;
+  }
+
+  .viewall-but:hover{
+    background-color:white ;
+    border:2px solid #ab0433 ;
+    color:black ;
+    font-weight:600 ;
+  }
+
+  .viewall-but{
+    background-color:#ab0433 ;
+    border:2px solid #ab0433 ;
+    padding-left:30px ;
+    padding-right:30px ;
+    border-radius:40px ;
+    font-weight:500 ;
+  }
+
+  /* home page second carousel for appointemnet of doctors */
+
+.card-title{
+  text-align:center ;
+}
+
+.surgery-text{
+  text-align: center;
+}
+
+.colu-days{
+  width:145px ;
+}
+
+.adjustment{
+  height:280px ;
+  border-radius:500px ;
+  width:280px ;
+  margin-top:20px ;
+  
+}
+
+.image-adjustmnet-div{
+  display:flex ;
+  justify-content:center ;
+  align-items:center  ;
+}
+
+.border-remover {
+  border:none ;
+}
+
+.make-appoint-but{
+  border:2px solid #aeaeae ;
+  font-size:14px ;
+  font-weight:500 ;
+  margin-top:15px ;
+}
+
+.make-appoint-but:hover{
+  background-color: black;
+  color:white ;
+}
+
+.text-align-left{
+  text-align:left ;
+}
+
+/* css for aapointment */
+
+.choose-doctor{
+  width:390px ;
+  margin-left:13px ;
+ 
+}
+
+.content-manage{
+  text-align:left ;
+}
+
+.text-area-appointment {
+  margin:0px ;
+}
+
+.appointment{
+  background-color:black ;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.figure2{
+  height:700px ;
+}
+
+.small-line2{
+  width:60px ;
+  height:3px ;
+  background-color:red ;
+ margin-left:15px ;
+}
+
+/* mixed css */
+
+.border-btn{
+  border: 0px;
+  
+}
+h4{
+  font-weight: 30px;
+  color:rgb(3, 3, 128);
+}
+
+.collapse-conatiner{
+  padding: 0px;
+}
+a{
+  color:white;
+  text-decoration: none;
+}
+.border-removal{
+  border:0px;
+}
+.form-sizing{
+  width: 600px;
+  box-shadow:-1px 6px 14px -3px rgb(67 58 58/ 75%);
+}
+
+.Apply-now-vacancies{
+  color:white ;
+}
+
+
+/* css for first carousel */
+
+.first-carousel-second{
+  height:529.09px ;
+}
